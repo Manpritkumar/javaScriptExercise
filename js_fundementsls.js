@@ -27,27 +27,6 @@ console.log(x);
 let y = null;
 console.log(y);
 
-//object it is collection of value
-
-const student = {
-  fullName: "Manprit Kumar",
-  age: 35,
-  mark: 60,
-  isPass: true,
-};
-student["age"] = student["age"] + 1;
-console.log(student);
-console.log(student["age"]);
-
-//product object example
-const product = {
-  title: "Ball Pen",
-  rating: 4,
-  offer: 5,
-  price: 270,
-};
-console.log(product);
-
 //Switch case statement
 
 let day = "Monday";
