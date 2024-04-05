@@ -1,0 +1,19 @@
+#box{
+    height: 400px;
+    width: 400px;
+    background-color:yellow;
+    border: 2px;
+    font-style: inherit;
+    text-decoration-color: white;
+
+
+}
+.myPara{   
+    
+    color: blue;
+    
+}
+.newClass{
+    background-color: yellow;
+    
+}
