@@ -7,7 +7,7 @@
 // console.log("a * b =", a * b);
 // console.log("a / b =", a / b);
 // console.log(a % b);
-// console.log(a ** b);
+//console.log(a ** b);
 // console.log(a++);
 // console.log(a--);
 // console.log(a);
@@ -74,7 +74,7 @@
 // }
 
 //Example -2
-// let mode = "light";
+// let mode = "dark";
 // let color;
 
 // if (mode === "dark") {
@@ -108,19 +108,19 @@
 
 // else if statement
 
-let mode = "blue";
-let color;
+// let mode = "blue";
+// let color;
 
-if (mode === "dark") {
-  color = "black";
-} else if (mode === "blue") {
-  color = "blue";
-} else if (mode === "pink") {
-  color = "pink";
-} else {
-  color = "white";
-}
-console.log(color);
+// if (mode === "dark") {
+//   color = "black";
+// } else if (mode === "blue") {
+//   color = "blue";
+// } else if (mode === "pink") {
+//   color = "pink";
+// } else {
+//   color = "white";
+// }
+// console.log(color);
 
 //Ternary operators
 let age = 17;

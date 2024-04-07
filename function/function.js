@@ -27,17 +27,17 @@ function multiple(a, b) {
 let calVal = multiple(6, 6);
 console.log(calVal);
 
-//arrow function
+// arrow function
 function suma(x, y) {
   return x + y;
 }
 
-//modren part of javascript
+// modren part of javascript
 const arrowSum = (x, y) => {
   console.log(x + y);
 };
 
-// mulitply arrow function
+//  mulitply arrow function
 
 const arrowMulti = (x, y) => {
   return x * y;
@@ -48,7 +48,7 @@ const printName = () => {
   console.log("agamAthi");
 };
 
-//Task-1
+// Task-1
 
 function countVowels(str) {
   let count = 0;
@@ -81,44 +81,44 @@ const countVow = str => {
   return count;
 };
 
-//for each loop in Arrays
-//let arr = [1, 2, 3, 4, 5];
-//arr.forEach(function printVal(val) {
-//console.log(val);
-//});
-/*arr.forEach(val => {
-  console.log(val);
-});*/
+// //for each loop in Arrays
+// //let arr = [1, 2, 3, 4, 5];
+// //arr.forEach(function printVal(val) {
+// //console.log(val);
+// //});
+// /*arr.forEach(val => {
+//   console.log(val);
+// });*/
 
-let arr = ["puna", "delhi", "punjab"]; // we are using only for array to perfom some task
-arr.forEach((val, idx, arr) => {
-  console.log(val.toUpperCase(), idx, arr);
-});
+// let arr = ["puna", "delhi", "punjab"]; // we are using only for array to perfom some task
+// arr.forEach((val, idx, arr) => {
+//   console.log(val.toUpperCase(), idx, arr);
+// });
 
-//Task practice -1
-let nums = [2, 4, 5, 6];
-nums.forEach(num => {
-  console.log(num * num);
-});
+// //Task practice -1
+// let nums = [2, 4, 5, 6];
+// nums.forEach(num => {
+//   console.log(num * num);
+// });
 
-// map is using to return new array
+// // map is using to return new array
 
-let numbers = [2, 5, 6, 8, 4];
-let newArr = numbers.map(val => {
-  return val * val;
-});
-console.log(newArr);
+// let numbers = [2, 5, 6, 8, 4];
+// let newArr = numbers.map(val => {
+//   return val * val;
+// });
+// console.log(newArr);
 
-// filter  method
-let lockNumber = [2, 3, 5, 8, 6, 9];
-let newlockNumbers = lockNumber.filter(num => {
-  return num <= 3;
-});
-console.log(newlockNumbers);
+// // filter  method
+// let lockNumber = [2, 3, 5, 8, 6, 9];
+// let newlockNumbers = lockNumber.filter(num => {
+//   return num <= 3;
+// });
+// console.log(newlockNumbers);
 
-//task 1 filter
-let marks = [70, 60, 93, 96, 98, 99];
-let marklist = marks.filter(num => {
-  return num > 90;
-});
-console.log(marklist);
+// //task 1 filter
+// let marks = [70, 60, 93, 96, 98, 99];
+// let marklist = marks.filter(num => {
+//   return num > 90;
+// });
+// console.log(marklist);

@@ -5,7 +5,7 @@
 //   let a = 20;
 //   a++;
 //   console.log(a);
-//};
+// };
 
 // onmouseover event handling
 
@@ -14,7 +14,7 @@
 //   console.log("you are inside the div");
 // };
 
-// //even object
+// even object
 // let btn1 = document.querySelector("#btn1");
 // btn1.onclick = evt => {
 //   console.log(evt);
@@ -22,7 +22,7 @@
 //   console.log(evt.target);
 // };
 
-// event listner
+//  event listner
 let btn1 = document.querySelector("#btn1");
 btn1.addEventListener("click", () => {
   console.log("button 1 was clicked -handler-1");
@@ -40,26 +40,26 @@ btn1.addEventListener("click", () => {
   console.log("button 1 was clicked -handler-4");
 });
 
-//remove eventlistner
-btn1.removeEventListener("click", handler2);
+// //remove eventlistner
+//btn1.removeEventListener("click", handler2);
 
-//practice
+// practice
 
-let modeBtn = document.querySelector("#mode");
-let body = document.querySelector("body");
-let currMode = "light";
-modeBtn.addEventListener("click", () => {
-  console.log("you are trying to change mode");
-  if (currMode === "light") {
-    currMode = "dark";
-    body.classList.add("dark");
-    body.classList.remove("light");
-    // document.querySelector("body").style.backgroundColor = "black";
-  } else {
-    currMode = "light";
-    body.classList.add("light");
-    body.classList.remove("dark");
-    //document.querySelector("body").style.backgroundColor = "white";
-  }
-  console.log(currMode);
-});
+// let modeBtn = document.querySelector("#mode");
+// let body = document.querySelector("body");
+// let currMode = "light";
+// modeBtn.addEventListener("click", () => {
+//   console.log("you are trying to change mode");
+//   if (currMode === "light") {
+//     currMode = "dark";
+//     body.classList.add("dark");
+//     body.classList.remove("light");
+//     // document.querySelector("body").style.backgroundColor = "black";
+//   } else {
+//     currMode = "light";
+//     body.classList.add("light");
+//     body.classList.remove("dark");
+//     //document.querySelector("body").style.backgroundColor = "white";
+//   }
+//   console.log(currMode);
+// });
